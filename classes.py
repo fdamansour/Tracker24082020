@@ -1,10 +1,7 @@
-import sys
 import tkinter as tk
 import time
 
-sys.dont_write_bytecode = True # Avoid the automatic creation .pyc File inside __pycache__ folder
-
-class StopWatch(tk.Frame):  #classe StopWatch herited from Frame
+class StopWatch(tk.Frame):  #Class StopWatch inheriting from the Tkinter class Frame
     """ Implements a stop watch frame widget. """                                                                
     def __init__(self, parent=None, **kw):        
         tk.Frame.__init__(self, parent, kw)
